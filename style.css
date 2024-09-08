@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1ded3;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: white;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+    text-align: right;
+    padding: 10px;
+}
+
+.dark-mode-toggle label {
+    color: #333;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+/* Header Section */
+header {
+    background-color: #5ca78f;
+    color: white;
+    padding: 10px 0;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: rgb(232, 241, 240);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.header-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode section {
+    background-color: #222;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    padding: 10px;
+    background-color: #b0cec1;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dark-mode #skills li {
+    background-color: #333;
+}
+
+/* Projects Section */
+.project {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #1a811f;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+}
+
+#contact a {
+    color: #4f93b0;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
